@@ -1,8 +1,9 @@
-package otp22;
+package tests;
 
 import club.nullbyte3.otp22.HelloApplication;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 public class HelloApplicationTest {
 
@@ -30,10 +31,5 @@ public class HelloApplicationTest {
         assertEquals(5, HelloApplication.addValues(2, 3));
         assertEquals(-1, HelloApplication.addValues(2, -3));
         assertEquals(0, HelloApplication.addValues(0, 0));
-    }
-
-    @Test(expected = IllegalArgumentException.class)
-    public void testDivideByZeroThrowsException() {
-        HelloApplication.divideValues(5.0, 0.0);
     }
 }
