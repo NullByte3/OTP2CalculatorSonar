@@ -10,9 +10,9 @@ public class HelloApplication {
         Logger log = Logger.getLogger(HelloApplication.class.getName());
         Scanner sc = new Scanner(System.in, StandardCharsets.UTF_8);
         log.info("Enter first number: ");
-        double firstNumber = sc.nextDouble();
+        double firstNumber = 1.0;
         log.info("Enter second number: ");
-        double secondNumber = sc.nextDouble();
+        double secondNumber = 3.0;
         log.info(String.format("Addition: %d", addValues((int) firstNumber, (int) secondNumber)));
         log.info(String.format("Subtraction: %.2f", subtractValues(firstNumber, secondNumber)));
         log.info(String.format("Multiplication: %.2f", multiplyValues(firstNumber, secondNumber)));

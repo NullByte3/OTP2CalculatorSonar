@@ -1,0 +1,112 @@
+
+1.0OTP2CalculatorSonarJavaFrontend"1763039640619*java2.BÚ
+=
+8src/main/java/club/nullbyte3/otp22/HelloApplication.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+club.nullbyte3.otp227
+*
+%club.nullbyte3.otp22.HelloApplication9
+
+class10
+
+access11
+
+public12
+
+simple-name13
+
+HelloApplication14
+?
+9club.nullbyte3.otp22.HelloApplication#multiplyValues(DD)D16
+
+method17
+
+multiplyValues18
+=
+7club.nullbyte3.otp22.HelloApplication#divideValues(DD)D20
+
+divideValues21
+?
+9club.nullbyte3.otp22.HelloApplication#subtractValues(DD)D23
+
+subtractValues24
+:
+4club.nullbyte3.otp22.HelloApplication#addValues(II)I26
+
+	addValues27J
+
+1
+12
+
+
+3
+4Z
+
+5	
+576jÉ
+A
+25;
+252617 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+27
+;
+86
+8910 *
+1 (:5B
+
+
+11
+12
+
+
+13
+14
+A
+19;
+192017 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+21
+A
+15;
+151617 *
+1	 	(28:5B
+
+
+11
+12
+
+
+13
+18
+A
+22;
+222317 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+24
