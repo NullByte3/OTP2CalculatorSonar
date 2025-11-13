@@ -10,10 +10,29 @@ public class HelloApplication {
         Logger log = Logger.getLogger(HelloApplication.class.getName());
         Scanner sc = new Scanner(System.in, StandardCharsets.UTF_8);
         log.info("Enter first number: ");
-        int firstNumber = sc.nextInt();
+        double firstNumber = sc.nextDouble();
         log.info("Enter second number: ");
-        int secondNumber = sc.nextInt();
-        log.info("The sum is: " + addValues(firstNumber, secondNumber));
+        double secondNumber = sc.nextDouble();
+        log.info(String.format("Addition: %d", addValues((int) firstNumber, (int) secondNumber)));
+        log.info(String.format("Subtraction: %.2f", subtractValues(firstNumber, secondNumber)));
+        log.info(String.format("Multiplication: %.2f", multiplyValues(firstNumber, secondNumber)));
+        log.info(String.format("Division: %.2f", divideValues(firstNumber, secondNumber)));
+        sc.close();
+    }
+
+    public static double multiplyValues(double x, double y) {
+        return x * y;
+    }
+
+    public static double divideValues(double x, double y) {
+        if (y == 0) {
+            throw new IllegalArgumentException("Cannot divide by zero.");
+        }
+        return x / y;
+    }
+
+    public static double subtractValues(double x, double y) {
+        return x - y;
     }
 
     public static int addValues(int a, int b) {
